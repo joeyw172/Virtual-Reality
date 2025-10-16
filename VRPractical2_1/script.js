@@ -79,9 +79,12 @@ function createCloud(x, y, z){
         base.setAttribute("position", "0 .5 0")
         house.append(base);
 
-        let roof = document.createElement("a-cylinder");
+        let roof = document.createElement("a-cone");
         roof.setAttribute("color", "#ff3f21");
-        roof.setAttribute("position", "0 1.5 0")
+        roof.setAttribute("position", "0 1.2 0");
+        roof.setAttribute("radius-bottom","1")
+        roof.setAttribute("height",".8")
+
 
         house.append(roof);
 
