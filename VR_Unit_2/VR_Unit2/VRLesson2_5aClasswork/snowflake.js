@@ -6,4 +6,8 @@ class Snowflake{
   }
 
   //Challenge 6: Create a function fall() which decreases y by dy and updates the Snowflake object to that y position
+    fall(){
+    this.a -= this.da;
+    this.obj.setAttribute("position",{x:0, y:this.a, z:0});
+  }
 }
