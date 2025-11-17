@@ -30,7 +30,7 @@ let maze = [
   "h-hhhhhhhhhhh-h-hhhhh-hhh-hhh-hhh-hhhhh-h-hhhhh-h-hhh-h", /*17*/
   "h---h-------h-h-h---------------------h-h-------h-----h", /*18*/
   "----hhhhhhh-h-h-h---------------------h-h-hhhhhhhhhhhhh", /*19*/
-  "h---h-------h-h-----------a--------------h---------h---h", /*20*/
+  "h---h-------h-h-------------------------h---------h---h", /*20*/
   "h-hhh-h-hhhhh-h-h---------------------h-h-hhhhhhh-h-h-h", /*21*/ 
   "h---h-h-h---h-h-h---------------------h-h-h-------h-h-h", /*22*/
   "h-h-h-h-h-h-h-h-hhhhh-hhh-hhh-hhh-hhhhh-h-h-hhhhh-h-h-h", /*23*/
@@ -49,8 +49,7 @@ let maze = [
   "h-h---------------------h-h-h---------h-------------h-h", /*36*/
   "h-hhhhhhhhhhh-hhhhhhhhh-h-h-hhhhhhhhh-hhhhhhhhhhhhhhh-h", /*37*/
   "h-------------------------h---------------------------h", /*38*/
-  "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh", /*39*/
-
+  "hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh" /*39*/
 ];
 
 /* Challenge 2
